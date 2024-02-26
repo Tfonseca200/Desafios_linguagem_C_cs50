@@ -3,7 +3,6 @@
 
 int main(void)
 {
-
     int x;
 
     do
@@ -18,7 +17,7 @@ int main(void)
     {
         for (int columnIndex = 0; columnIndex < x; columnIndex++)
         {
-            if (columnIndex < Position)
+            if (columnIndex < x - lineIndex - 1)
             {
                 printf(" ");
             }
@@ -29,6 +28,5 @@ int main(void)
         }
         printf("\n");
 
-        inputPosition -= 1;
     }
 }
